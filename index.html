@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PlanMyWedding.lk | Coming Soon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-color: #d6336c;
+      --bg-color: #fff0f5;
+      --text-color: #333;
+      --font-primary: 'Inter', sans-serif;
+      --font-script: 'Great Vibes', cursive;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-primary);
+      background: linear-gradient(135deg, #ffe3ec, #fffafd);
+      color: var(--text-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo {
+      font-family: var(--font-script);
+      font-size: 3em;
+      color: var(--main-color);
+      margin-bottom: 0.5em;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      font-weight: 600;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin-bottom: 1em;
+      color: #444;
+    }
+
+    .highlight {
+      color: var(--main-color);
+      font-weight: 600;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      .logo {
+        font-size: 2.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">PlanMyWedding.lk</div>
+  <h1>We're Building Something Beautiful</h1>
+  <p>Our platform is currently under development. Please be patient as we prepare to launch in <span class="highlight">Q4 2025</span>.</p>
+  <p>We can’t wait to help you plan your dream wedding 💖</p>
+  <div class="footer">© 2025 PlanMyWedding.lk. All rights reserved.</div>
+</body>
+</html>
